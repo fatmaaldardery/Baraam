@@ -1,0 +1,121 @@
+body   
+{
+    font-family: sans-serif   ;
+    padding: 0;
+    margin: 0;
+    background-color:lightgray;
+    direction: rtl;
+    font-size: large;
+}
+.container
+{
+    width: 80% ;
+    margin: auto;
+    overflow: hidden;
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+ background: purple;
+ color: #ffffff;
+ padding-top: 10px;
+ min-height: 30px;
+ 
+ 
+}
+header a
+{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display:inline;
+    padding:0 20px 0 20px;
+
+}
+ header #brand
+ {
+    float:right;
+ }
+ header #brand h1
+{
+    margin: 0;
+    color: azure;
+ }
+ header nav
+ {
+    float: left;
+    margin-top: 10px;
+ }
+ header .current a
+ {
+    color: azure;
+    font-weight: bold;
+ }
+ header a:hover
+ {
+    color: burlywood;
+    font-weight: bold;
+ }
+ #show
+ {
+    min-height: 200px;
+    background: url("../pic/كوكب\ براعم.jpg") no-repeat center;
+    background-size: cover;
+ }
+#gig
+{
+    margin: 0;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+  }
+ 
+ #boxes
+ {
+    margin-top: 20px;
+
+ }
+ #boxes .box
+ {
+    float: right;
+    text-align: center;
+    width: 33%;
+    padding: 20 px;
+    
+ }
+ footer
+ {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: darkorchid;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ @media(max-width:768px)
+ {
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    
+ }

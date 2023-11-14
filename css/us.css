@@ -1,0 +1,73 @@
+body   
+{
+    font-family: sans-serif   ;
+    padding: 0;
+    margin: 0;
+    background-color:lightgray;
+    direction: rtl;
+    font-size: large;
+}
+.container
+{
+    width: 80% ;
+    margin: auto;
+    overflow: hidden;
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+ background: purple;
+ color: #ffffff;
+ padding-top: 10px;
+ min-height: 30px;
+ 
+ 
+}
+header a
+{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display:inline;
+    padding:0 20px 0 20px;
+
+}
+ header #brand
+ {
+    float:right;
+ }
+ header #brand h1
+{
+    margin: 0;
+    color: azure;
+ }
+ header nav
+ {
+    float: left;
+    margin-top: 10px;
+ }
+ header .current a
+ {
+    color: azure;
+    font-weight: bold;
+ }
+ header a:hover
+ {
+    color: burlywood;
+    font-weight: bold;
+ }
+ #showcase
+ {
+    min-height: 200px;
+    background: url("../pic/كوكب\ براعم.jpg") no-repeat center;
+    background-size: cover;
+ }
+ 
